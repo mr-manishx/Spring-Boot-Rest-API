@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: SB_REST_API_Faculty_CRUD
+
+  datasource:
+    username: root
+    password: iesbpl@2024
+    url: jdbc:mysql://localhost:3306/sbrapi
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

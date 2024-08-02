@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="SB_REST_API_CRUD">
-        <property name="context-root" value="SB_Spring_Web_MVC_Book_Retrive"/>
-        <property name="java-output-path" value="/SB_REST_API_CRUD/target/classes"/>
-    </wb-module>
-</project-modules>

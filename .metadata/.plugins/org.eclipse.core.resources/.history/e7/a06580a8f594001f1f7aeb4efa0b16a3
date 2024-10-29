@@ -1,0 +1,5 @@
+package com.mrsit.service;
+
+public interface ProductService {
+
+}

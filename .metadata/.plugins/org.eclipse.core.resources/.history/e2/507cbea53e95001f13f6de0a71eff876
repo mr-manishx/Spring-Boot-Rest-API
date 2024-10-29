@@ -1,0 +1,9 @@
+package com.mrsit;
+
+@org.springframework.stereotype.Controller
+public class Controller {
+	public String home() {
+		return "I am running";
+	}
+
+}

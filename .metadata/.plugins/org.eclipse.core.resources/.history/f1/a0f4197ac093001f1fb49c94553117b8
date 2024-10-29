@@ -1,0 +1,16 @@
+package com.mrsit.entity;
+
+
+public class Employee {
+
+	private Integer empId;
+	private String empName;
+	private Double salary;
+	
+	public Employee(Integer empId, String empName, Double salary) {
+		this.empId = empId;
+		this.empName = empName;
+		this.salary = salary;
+	}
+	
+}

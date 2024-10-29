@@ -1,0 +1,11 @@
+package com.mrsit.binding;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Data
+@Entity
+@Table(name="student_tbl")
+public class Student {
+
+}

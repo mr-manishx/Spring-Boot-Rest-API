@@ -1,0 +1,33 @@
+package com.mrsit.controller;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.mrsit.entity.Employee;
+
+@RestController
+public class EmployeeController {
+	
+	@DeleteMapping(value="/delete/{id}", produces = "text/plain", consumes = "application/json")
+	public String deleteByIdx(@PathVariable Integer id) {
+		// db logic to delete by id 
+		
+		return "Deleted";
+	}
+	
+	@PostMapping(value="/add", produces = "text/plain", consumes = "application/json")
+	public ResponseEntity<String> addEmployee(@RequestBody Employee emp){
+		// logic to insert into db
+		System.out.println(emp);
+		
+		String body = "Added Successfully";
+		
+		return new ResponseEntity<>(body, HttpStatus.CREATED);
+	}
+	 
+}

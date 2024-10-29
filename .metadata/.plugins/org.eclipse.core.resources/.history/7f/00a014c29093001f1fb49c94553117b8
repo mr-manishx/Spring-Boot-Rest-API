@@ -1,0 +1,18 @@
+package com.mrsit.convert;
+
+import java.io.File;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mrsit.Student;
+
+public class ConvertObjToJson {
+
+	public static void main(String[] args1) throws Exception {
+		
+		Student s = new Student(101, "Alexa", "Female", 345);
+		
+		ObjectMapper mapper = new ObjectMapper();
+		mapper.writeValue(new File("student.json"), s);
+		
+		System.out.println("Completed..");
+	}
+}

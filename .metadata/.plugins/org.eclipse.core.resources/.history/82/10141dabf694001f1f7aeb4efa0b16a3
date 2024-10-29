@@ -1,0 +1,33 @@
+package com.mrsit.service;
+
+import java.util.List;
+
+import com.mrsit.binding.Product;
+
+public class ProductServiceImp implements ProductService {
+
+	@Override
+	public String upsert(Product prod) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product getRecordById(Integer prodId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteItemById(Integer prodId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getAllProductInfo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

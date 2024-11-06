@@ -3,5 +3,6 @@
     <typeInfo handle="=SB_REST_API_CRUD/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mrsit.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1729930186323"/>
     <typeInfo handle="=SB_REST_API_Student_Crud/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mrsit.service{StudentService.java[StudentService" modifiers="513" timestamp="1730036913149"/>
     <typeInfo handle="=SB_REST_API_Product_CRUD/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mrsit.service{ProductService.java[ProductService" modifiers="513" timestamp="1730104168300"/>
-    <typeInfo handle="=SB_REST_API_Faculty_CRUD/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mrsit.service{FacultyService.java[FacultyService" modifiers="513" timestamp="1730372117409"/>
+    <typeInfo handle="=SB_REST_API_Faculty_CRUD/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mrsit.service{FacultyService.java[FacultyService" modifiers="513" timestamp="1730481297353"/>
+    <typeInfo handle="=SB_REST_API_Job_Application/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mrsit.service{JobService.java[JobService" modifiers="513" timestamp="1730635355287"/>
 </typeInfoHistroy>

@@ -1,5 +1,0 @@
-package com.mrsit.service;
-
-public interface StudentService {
-
-}

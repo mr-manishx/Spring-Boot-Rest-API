@@ -1,5 +1,0 @@
-package com.mrsit.repo;
-
-public interface ProductRepository {
-
-}

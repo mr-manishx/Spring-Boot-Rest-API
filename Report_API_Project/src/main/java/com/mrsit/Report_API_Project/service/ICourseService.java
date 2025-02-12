@@ -5,12 +5,15 @@ import java.util.List;
 import java.util.Set;
 
 import com.itextpdf.text.DocumentException;
+import com.mrsit.Report_API_Project.entities.CourseDetails;
 import com.mrsit.Report_API_Project.model.SearchInputs;
 import com.mrsit.Report_API_Project.model.SearchResults;
 
 import jakarta.servlet.http.HttpServletResponse;
 
 public interface ICourseService {
+	
+	public String saveNewCourse(CourseDetails course);
 
     Set<String> showAllCourseCategories();  // Consider using List<String> if ordering matters
     Set<String> showAllTrainingModes();

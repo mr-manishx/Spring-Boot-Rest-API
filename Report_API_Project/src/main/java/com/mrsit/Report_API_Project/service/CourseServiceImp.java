@@ -270,4 +270,11 @@ public class CourseServiceImp implements ICourseService {
 			e.printStackTrace();
 		}
 	}
+
+	@Override
+	public String saveNewCourse(CourseDetails course) {
+		// TODO Auto-generated method stub
+		courseRepository.save(course);
+		return "Course updated successfully";
+	}
 }

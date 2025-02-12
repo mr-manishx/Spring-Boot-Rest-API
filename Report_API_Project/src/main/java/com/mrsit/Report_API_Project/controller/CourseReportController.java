@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.itextpdf.text.log.LoggerFactory;
+import com.mrsit.Report_API_Project.entities.CourseDetails;
 import com.mrsit.Report_API_Project.model.SearchInputs;
 import com.mrsit.Report_API_Project.service.ICourseService;
 
@@ -30,7 +31,13 @@ public class CourseReportController {
 	public CourseReportController(ICourseService courseService) {
 		this.courseService = courseService;
 	}
-
+	
+	@PostMapping(value="/Add_New_Course")
+	public ResponseEntity<String> AddNewCourse(CourseDetails course){
+		
+		String message = courseService.saveNewCourse(course);
+		return new ResponseEntity<>(message, HttpStatus.CREATED);
+	}
 	@GetMapping("/course")
 	public ResponseEntity<?> fetchCourseCategories() {
 		try {
